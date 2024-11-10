@@ -3,6 +3,12 @@
 ## Bash Commands
 - `npm init -y`: Initialize a Node.js project with default settings.
 - `npm install express pg knex`: Install essential Node.js packages.
+- `npm install body-parser`: Install body-parser middleware for JSON parsing.
+- `npm install jsonwebtoken bcrypt`: Install packages for authentication.
+- `npm install file-saver`: Install package for handling file downloads.
+- `npx create-react-app my-app --template typescript`: Set up a new React app with TypeScript.
+- `cd my-app`: Navigate to the React app directory.
+- `npm start`: Start the React development server.
 - `mkdir <directory_name>`: Create a new directory.
 - `touch <file_name>`: Create a new file.
 - `tree`: Display directory structure in a tree format.
@@ -20,5 +26,7 @@
 - `git add .`: Stage all changes for commit.
 - `git commit -m "Initial commit with project setup and migrations"`: Commit changes with a message.
 - `git remote -v`: Check existing remote repositories.
-- `git remote add origin <your-repo-url>`: Add a remote repository if not already set.
-- `git push -u origin main`: Push changes to the remote repository.
+- `git remote add origin https://github.com/pelchers/React1`: Add a remote repository.
+- `git push -u origin master`: Push changes to the remote repository.
+- `git config --global core.autocrlf true`: Configure Git to handle line endings on Windows.
+- `git checkout -b development`: Create a new development branch.
