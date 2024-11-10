@@ -1,0 +1,5 @@
+# Error and Resolution Log
+
+- [Timestamp] Error: Attempted to run `npx knex migrate:latest` within PostgreSQL CLI.
+- [Timestamp] Resolution: Exited PostgreSQL CLI and ran migration command in terminal.
+- [Timestamp] Resolution: Verified migration success by checking `knex_migrations` table.

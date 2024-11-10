@@ -1,0 +1,15 @@
+# Cursor Project Steps
+
+1. Create Project Files and Initial Setup
+2. Set Up PostgreSQL
+3. Define Database Schema Using Migrations
+4. Implement Git Workflow
+5. Set Up Node.js Backend
+6. Implement Authentication
+7. Develop Frontend with React and TypeScript
+8. Connect Frontend and Backend
+9. Implement Project Features
+10. Test and Debug
+11. Prepare for Deployment
+12. Deploy to Heroku
+13. Considerations for Future Migration to GCP 

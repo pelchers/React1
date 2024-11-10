@@ -1,0 +1,21 @@
+# General Guidelines
+
+## Terminal Usage
+- Use bash for executing terminal commands.
+- Specify whether commands should be run in an admin terminal or a normal one.
+
+## Editable Sections
+- Use ***EDIT THIS*** before any code or command that requires user customization.
+- Replace placeholders with your credentials or specific values.
+
+## Code Structure
+- Keep code simple, well-documented, and structured.
+- Use `.tsx` files for React components to ensure type safety.
+
+## File Management
+- Always reference the `.env` and `.gitignore` files for environment variables and ignored files.
+- Ensure all sensitive information is stored in the `.env` file and not committed to version control.
+
+## Development Practices
+- Use the `src/index.js` file as the main entry point for your server.
+- Follow best practices in code organization, security, and version control. 

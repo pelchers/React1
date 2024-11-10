@@ -1,0 +1,47 @@
+# Chat Conversation Log
+
+- [Timestamp] User: Initialize a full-stack web application for a Scam Investigation Platform using Node.js, Express, PostgreSQL, and React.
+- [Timestamp] User: Ensure all commands are in bash and tagged appropriately.
+- [Timestamp] User: Include ***EDIT THIS*** before any code requiring customization.
+- [Timestamp] User: Provide the directory structure after each major step.
+- [Timestamp] User: Elaborate on GitHub setup, including how to connect, manage branches, and ensure you're on the correct branch.
+- [Timestamp] User: Use best practices in code organization, security, and version control.
+- [Timestamp] User: Reference web resources where appropriate.
+- [Timestamp] User: At each step requiring installations, include how to check if it's already installed and configured appropriately to avoid redundancies.
+- [Timestamp] User: Make notes if commands should be executed in the Cursor terminal or the Windows Command Prompt.
+- [Timestamp] User: Note that the user only has some of the `.tsx` components needed for the project.
+- [Timestamp] User: Reference `PROJECT_SPEC.md` for detailed project specifications.
+- [Timestamp] User: Utilize `instructions.txt` and `cursorrules.json` for guidelines and rules.
+- [Timestamp] User: Include detailed steps on deploying the application to Heroku.
+- [Timestamp] User: Highlight any practices that will make future migration smoother.
+- [Timestamp] User: Set Up GitHub Account.
+- [Timestamp] User: Install Necessary Software.
+- [Timestamp] User: Configure Git with GitHub.
+- [Timestamp] User: Create and Clone GitHub Repository.
+- [Timestamp] User: Provide Documents and Prompts to Cursor.
+- [Timestamp] User: Initialize Node.js Project and Install Dependencies.
+- [Timestamp] User: Set Up Environment Variables and `.gitignore`.
+- [Timestamp] User: Set Up PostgreSQL Database.
+- [Timestamp] User: Define Database Schema Using Migrations.
+- [Timestamp] User: Implement Git Workflow.
+- [Timestamp] User: Integrate and Generate `.tsx` Components into `src/components`.
+- [Timestamp] User: Implement Server Code with Express.
+- [Timestamp] User: Implement Authentication Using JWT and bcrypt.
+- [Timestamp] User: Implement Project Features.
+- [Timestamp] User: Connect Frontend and Backend.
+- [Timestamp] User: Start the Application Locally and Test Endpoints.
+- [Timestamp] User: Prepare for Deployment.
+- [Timestamp] User: Deploy the Application to Heroku.
+- [Timestamp] User: Considerations for Future Migration to GCP.
+- [Timestamp] User: This is my directory and file that is open in the explorer of this project.
+- [Timestamp] User: Note I am a new developer and need as much guidance and assistance as you are able.
+- [Timestamp] User: Keep things simple, well-documented, easy, and structured for me.
+- [Timestamp] User: I prefer bash to execute commands.
+- [Timestamp] User: Please fill in placeholders or ask what I want the placeholders filled in with when generating code for me to use.
+- [Timestamp] User: Always denote before each code block what file it goes in, whether I can use cursor terminal or have to use external terminal when executing terminal commands, and what version of terminal.
+- [Timestamp] User: When going through steps, always note the prior step, then give the full step (in as much detail as possible) that we are currently on, and then give a lead into the next step.
+- [Timestamp] User: Never go to the next step before I confirm that the full step is completed.
+- [Timestamp] User: Follow a structured approach with prior, current, and next step indications.
+- [Timestamp] User: Confirm completion of each step before moving to the next.
+- [Timestamp] User: Use the naming guide for steps: [Prior Step: Step X - Name] [Current Step: Step Y - Name] [Next Step: Step Z - Name].
+- [Timestamp] User: I want the database called React1.

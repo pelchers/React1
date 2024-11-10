@@ -1,0 +1,14 @@
+# Project Rules and Notes
+
+1. Always reference the `.env` and `.gitignore` files for environment variables and ignored files.
+2. Use bash for executing terminal commands.
+3. Keep code simple, well-documented, and structured.
+4. For any placeholders in code, decide on the values or ask for guidance.
+5. Use the `src/index.js` file as the main entry point for your server.
+6. Ensure all sensitive information is stored in the `.env` file and not committed to version control.
+7. Regularly update log files in the `logs` directory to track commands, syntax, errors, and ease of use considerations.
+8. Use `\du` in PostgreSQL CLI to list all users and verify your username.
+9. Confirm each step before proceeding to the next to ensure understanding and completion.
+10. Follow a structured approach with prior, current, and next step indications.
+11. Use the naming guide for steps: [Prior Step: Step X - Name] [Current Step: Step Y - Name] [Next Step: Step Z - Name].
+12. Ensure the database name is consistent across all configurations, using `React1` for this project.

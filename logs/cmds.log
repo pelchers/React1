@@ -1,0 +1,24 @@
+# Commands Log
+
+## Bash Commands
+- `npm init -y`: Initialize a Node.js project with default settings.
+- `npm install express pg knex`: Install essential Node.js packages.
+- `mkdir <directory_name>`: Create a new directory.
+- `touch <file_name>`: Create a new file.
+- `tree`: Display directory structure in a tree format.
+- `tree -L 2 -I 'node_modules|*.log|*.json|*.md'`: Display a simplified directory structure.
+- `echo "<text>" >> <file_name>`: Append text to a file.
+- `psql --version`: Check PostgreSQL version.
+- `psql -U postgres`: Access PostgreSQL CLI.
+- `CREATE DATABASE "React1";`: Create a new database named React1 with correct capitalization.
+- `\du`: List all PostgreSQL users.
+- `psql -U postgres -d React1 -h localhost`: Test connection to the React1 database using the postgres user.
+- `npx knex migrate:make initial_setup`: Create a new migration file.
+- `npx knex migrate:latest`: Run the latest migrations to update the database schema.
+- `git status`: Check the status of the Git repository.
+- `git init`: Initialize a new Git repository if not already initialized.
+- `git add .`: Stage all changes for commit.
+- `git commit -m "Initial commit with project setup and migrations"`: Commit changes with a message.
+- `git remote -v`: Check existing remote repositories.
+- `git remote add origin <your-repo-url>`: Add a remote repository if not already set.
+- `git push -u origin main`: Push changes to the remote repository.

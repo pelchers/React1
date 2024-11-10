@@ -1,0 +1,17 @@
+# Syntax Guide
+
+## JavaScript (Node.js)
+- `const express = require('express');`: Import Express module.
+- `app.listen(port, () => {});`: Start an Express server.
+
+## SQL (PostgreSQL)
+- `CREATE DATABASE <database_name>;`: Create a new database.
+- `SELECT * FROM <table_name>;`: Retrieve all records from a table.
+
+## TypeScript (React)
+- `interface Props {}`: Define a TypeScript interface for component props.
+- `const Component: React.FC<Props> = () => {};`: Define a functional component with props.
+
+## Knex.js
+- `knex.schema.createTable('table_name', function(table) {});`: Create a new table schema.
+- `knex('table_name').insert({});`: Insert a new record into a table. 

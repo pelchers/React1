@@ -1,0 +1,8 @@
+# Ease of Use Considerations Log
+
+- This file will document considerations and suggestions to make the development process easier.
+- [Timestamp] User: Request for detailed step-by-step instructions.
+- [Timestamp] User: Preference for bash commands and clear terminal usage instructions.
+- [Timestamp] User: Need for placeholders to be clearly marked and explained.
+- [Timestamp] User: Use the postgres user for database operations due to more permissions.
+- [Timestamp] User: Ensure PostgreSQL service is running before attempting to connect.

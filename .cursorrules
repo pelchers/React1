@@ -1,0 +1,58 @@
+# Cursor Project Specific Rules
+
+## Project Setup
+- Use the `react1` directory for the current project.
+- Initialize the project with Node.js, Express, PostgreSQL, and React with TypeScript.
+
+## User Guidance
+- Provide high-level guidance, detailed explanations, and extra steps for understanding code, dependencies, frameworks, and commands.
+- Structure the project as simply as possible while covering all desired functionality.
+- Use bash commands where practical, with specific setup and execution preferences.
+
+## Development Considerations
+- Implement pages as `.tsx` files by version 0 (v0).
+- Ensure seamless communication between frontend and backend.
+- Use best practices in code organization, security, and version control.
+- Reference web resources where appropriate.
+
+## Execution and Instruction Preferences
+- Execute as many steps as possible directly in bash.
+- Specify the terminal or file being used for each code block, especially if it’s in Cursor or on Windows.
+- Denote whether commands should be run in an admin terminal or a normal one.
+- Use user credentials in place of placeholders when feasible.
+- **New Rule**: Before each code block, specify the terminal type (e.g., bash vs cmd) and whether it is within Windows or Cursor.
+
+## Project Features
+- Profile Pages: Each user type will have a profile page with a common layout, customized for specific fields.
+- Projects Section: Users can create, update, and collaborate on projects.
+- File Upload: Users can upload files to their profiles and projects.
+- Follow and Trophies: Users can follow each other and award trophies.
+- Explore Page: A dynamic page for filtering and exploring profiles or projects.
+
+## Deployment
+- Deploy the application to Heroku with considerations for future migration to Google Cloud Platform.
+- Include detailed steps for deploying both backend and frontend applications to Heroku.
+- Ensure configurations are set up to facilitate future migration to Google Cloud Platform.
+
+## Git and GitHub Integration
+- Set up GitHub account and repository.
+- Configure Git with GitHub, including SSH keys.
+- Manage branches and ensure correct branch usage.
+
+## Component Generation
+- Recognize that the user only has some of the `.tsx` components needed.
+- Automatically generate the missing `.tsx` components based on the files uploaded and project requirements outlined in `PROJECT_SPEC.md`.
+- Adjust the uploaded components as necessary to ensure consistency.
+
+## Step-by-Step Instructions
+- Follow a structured approach with prior, current, and next step indications.
+- Confirm completion of each step before moving to the next.
+- Use the naming guide for steps: [Prior Step: Step X - Name] [Current Step: Step Y - Name] [Next Step: Step Z - Name]
+
+## Additional Considerations
+- Reference `PROJECT_SPEC.md` for detailed project specifications.
+- Utilize `instructions.txt` and `cursorrules.json` for guidelines and rules.
+- Highlight practices that will make future migration smoother, such as using buildpacks and environment variables.
+- Regularly update log files in the `logs` directory to track commands, syntax, errors, and ease of use considerations.
+- Ensure the database name is consistent across all configurations, using `React1` for this project.
+- Maintain a comprehensive log of all interactions and decisions made during the project development.
