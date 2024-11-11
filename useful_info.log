@@ -13,7 +13,7 @@
   - Keep the `main` or `master` branch stable and use it for production-ready code.
   - Create feature branches for new features or changes, and merge them into `development` or `main` after testing.
 
-- **Step-by-Step Procedure for Synchronizing Branches**:
+- **Step-by-Step Procedure for Branch Management**:
   1. **Check Current Branch**:
      - **Command**: Use `git branch` to see which branch you're currently on.
      - **Purpose**: Ensure you're working in the correct branch for your current task.
@@ -22,19 +22,15 @@
      - **Command**: Use `git status` to check for uncommitted changes.
      - **If Changes Exist**: Use `git add .` to stage changes and `git commit -m "Your commit message"` to commit them.
 
-  3. **Merge `development` into `boilerplate-1`**:
-     - **Switch to `boilerplate-1`**: Use `git checkout boilerplate-1`.
-     - **Merge**: Use `git merge development` to bring in the latest changes from `development`.
+  3. **Update Branches to Latest**:
+     - **Switch to the Branch to Update**: Use `git checkout <branch-name>`.
+     - **Merge Latest Changes**: Use `git merge <source-branch>` to bring in the latest changes from the source branch.
 
   4. **Push Updates to Remote**:
-     - **Command**: Use `git push origin boilerplate-1` to push the updated `boilerplate-1` branch to the remote repository.
+     - **Command**: Use `git push origin <branch-name>` to push the updated branch to the remote repository.
 
-  5. **Merge `boilerplate-1` into `development`**:
-     - **Switch to `development`**: Use `git checkout development`.
-     - **Merge**: Use `git merge boilerplate-1` to bring in the latest changes from `boilerplate-1`.
-
-  6. **Push Development Branch**:
-     - **Command**: Use `git push origin development` to ensure the development branch is up to date on the remote.
+  5. **Switch Back to Development Branch**:
+     - **Command**: Use `git checkout development` to return to the development branch for ongoing work.
 
 - **Pushing and Pulling**:
   - Use `git push -u origin <branch-name>` to push a new branch to the remote repository.
@@ -43,7 +39,7 @@
 - **Merging**:
   - **Command**: Use `git merge <branch-name>` to merge changes from one branch into another.
   - **Branch to Be In**: You should be on the branch you want to update (e.g., `boilerplate-1`) when you run the merge command.
-  - **Most Up-to-Date Branch**: The branch you are merging from should be the most up-to-date with the latest changes.
+  - **Most Up-to-Date Branch**: The branch you are merging from (e.g., `development`) should be the most up-to-date with the latest changes.
   - **Purpose**: This ensures that the target branch (the one you're on) receives all the latest updates from the source branch.
   - **Regular Updates**: Regularly merge changes from `development` into `main` to keep it updated.
 
